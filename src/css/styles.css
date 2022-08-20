@@ -75,6 +75,9 @@ span.operator {
 
 span.answer {
   /* border: 1px solid #fff; */
+  display: inline-block;
+  width: max-content;
   font-size: 1.8rem;
-  color: rgb(53, 68, 223);
+  border: 2px solid transparent;
+  border-bottom-color: rgb(53, 68, 223);
 }

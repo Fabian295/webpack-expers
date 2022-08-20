@@ -1,7 +1,7 @@
 // console.log('webpack experiment!');
 
-import { equalify, operator } from "./statements.js";
-import { handleChange, first, sec, firstNum, secondNum } from "./events.js";
+import { equalify, operator } from "./js/statements.js";
+import { handleChange, first, sec, firstNum, secondNum } from "./js/events.js";
 
 // const first = document.getElementById('input');
 // const sec = document.getElementById('input-sec');
