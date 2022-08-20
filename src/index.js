@@ -2,7 +2,8 @@
 
 import { equalify, operator } from "./js/statements.js";
 import { handleChange, first, sec, firstNum, secondNum } from "./js/events.js";
-import  './main.css';
+// import  './main.css';
+import  './main.scss';
 
 // const first = document.getElementById('input');
 // const sec = document.getElementById('input-sec');

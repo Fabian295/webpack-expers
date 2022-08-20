@@ -1,3 +1,6 @@
+/* @import "/Users/fabiankanhai/Documents/coding/code-exp-exer/webpack-expers/node_modules/bootstrap/scss/bootstrap.scss"; */
+@import  "/Users/fabiankanhai/Documents/coding/code-exp-exer/webpack-expers/node_modules/bootstrap/dist/css/bootstrap.min.css";
+
 body {
   background-color: #252525;
   color: #fff;
@@ -43,7 +46,7 @@ input {
   justify-content: space-between;
   align-items: center;
 }
-.btn {
+.btn, .equal {
   width: 3rem;
   padding: 0.25rem 1rem;
   background-color: rgb(43, 59, 164);
