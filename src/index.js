@@ -2,6 +2,7 @@
 
 import { equalify, operator } from "./js/statements.js";
 import { handleChange, first, sec, firstNum, secondNum } from "./js/events.js";
+import  './main.css';
 
 // const first = document.getElementById('input');
 // const sec = document.getElementById('input-sec');
@@ -16,7 +17,7 @@ sec.addEventListener('click', handleChange);
 btns.forEach((btn) => {
   btn.addEventListener('click', () => {
     operator.textContent = btn.innerText;
-    operator.style.fontSize = '1.4rem';
+    operator.style.fontSize = '1.8rem';
     operator.style.color = 'lime';
     console.log(btn.innerText)
   })
