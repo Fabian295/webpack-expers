@@ -4,8 +4,8 @@
 $royal: royalblue;
 
 body {
-  background-color: #252525;
   background-color: $royal;
+  background-color: #252525;
   color: #fff;
   font-family: 'Convergence' , sans-serif;
 }
@@ -57,6 +57,20 @@ input {
   color: #fff;
   font-size: 1.4rem;
   font-weight: 900;
+}
+
+.divide {
+  background-color: orange;
+  color: #000;
+}
+
+.plus {
+  background-color: rgb(21, 225, 38);
+  color: #000;
+}
+
+.min {
+  background-color: crimson;
 }
 
 .phrase {
